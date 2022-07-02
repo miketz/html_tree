@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html> <head>
-    <script type="text/javascript" src="tree.js" ></script>
+    <script type="text/javascript" src="treeTable.js" ></script>
     <style>
      table {
          border-collapse: collapse;
          border: 1px solid #000000;
      }
-     table td {
+     table td, table th {
          border: 1px solid #000000;
      }
+
+
+
      .divNode {
          display: inline-block;
          width: 20px;
@@ -30,17 +33,13 @@
     </style>
   </head>
   <body>
-    <h2>This is a test</h2>
 
     <table id="idTree">
       <thead> </thead>
       <tbody> </tbody>
     </table>
 
-    <div id="divCanvas">
-    </div>
 
-    <input type="button" id="btnSave" value="Save" />
 
 
   </body>

@@ -1,0 +1,19 @@
+{
+  // "extends": "@tsconfig/node12/tsconfig.json",
+  // "compilerOptions": {
+  //   "preserveConstEnums": true
+  // },
+  // "include": ["src/**/*"],
+
+    "compilerOptions": {
+        // "module": "commonjs",
+        "strict": true,
+        "target": "es5",
+        // "target": "ESNext",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": false
+    },
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
